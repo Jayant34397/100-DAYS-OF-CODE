@@ -1,0 +1,14 @@
+/* WRITE A PROGRAM TO FIND AND DISPLAY THE SUM OF THE FIRST n NATURAL NUMBERS*/
+
+#include<stdio.h>
+int main()
+{
+    int n,sum=0;
+    printf("enter the value of n:");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        sum =sum +i;
+    }
+    printf("sum of n numbers:%d",sum);
+}
