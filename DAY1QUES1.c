@@ -12,4 +12,3 @@ int main()
     printf("sum of a and b is :%d\n",sum);
     return 0;
 }
-4
