@@ -1,0 +1,2 @@
+/*delete of an array*/
+
