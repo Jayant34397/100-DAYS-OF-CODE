@@ -1,7 +1,7 @@
 # 100 Days of Code — C Programming 🚀
 
-[![Progress](https://img.shields.io/badge/Progress-Day%2065%20%2F%20100-2ea44f?style=for-the-badge&logo=git)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
-[![Questions Solved](https://img.shields.io/badge/Questions%20Solved-115-blue?style=for-the-badge)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
+[![Progress](https://img.shields.io/badge/Progress-Day%2073%20%2F%20100-2ea44f?style=for-the-badge&logo=git)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
+[![Questions Solved](https://img.shields.io/badge/Questions%20Solved-123-blue?style=for-the-badge)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
 [![Language](https://img.shields.io/badge/Language-C-A8B9CC?style=for-the-badge&logo=c)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
 [![Institution](https://img.shields.io/badge/Institution-UPES-E31837?style=for-the-badge)](https://www.upes.ac.in/)
 
@@ -33,8 +33,8 @@ This repository documents daily hands-on problem solving, data structures, algor
 | **5. 1D Arrays** | Q56 – Q70 | ✅ Completed (15/15) |
 | **6. 2D Arrays (Matrices)** | Q71 – Q80 | ✅ Completed (10/10) |
 | **7. Strings & String Functions** | Q81 – Q100 | ✅ Completed (20/20) |
-| **8. Logic Enhancers & Problem Solving** | Q101 – Q115+ | 🚀 In Progress (15 Completed) |
-| **9. File Handling & Enums** | Q120+ | ⏳ Upcoming |
+| **8. Logic Enhancers & Problem Solving** | Q101 – Q119 | ✅ Completed (19/19) |
+| **9. File Handling & Additional Topics** | Q120 – Q123+ | 🚀 In Progress (4 Completed) |
 
 ---
 
@@ -42,12 +42,12 @@ This repository documents daily hands-on problem solving, data structures, algor
 
 ```text
 100-DAYS-OF-CODE/
-├── Day 01/             # Daily challenge folders (Day 01 to Day 65)
+├── Day 01/             # Daily challenge folders (Day 01 to Day 73)
 │   ├── Q1 (...).c
 │   └── Q2 (...).c
 ├── ...
-├── Day 65/
-│   └── DAY65QUES115.c
+├── Day 73/
+│   └── DAY73QUES123.c
 ├── Worksheets/         # University lab worksheets & assignments
 │   ├── Worksheet 01/   # Questions Q1 to Q20
 │   └── Worksheet 02/   # Questions Q1 to Q20
@@ -59,7 +59,7 @@ This repository documents daily hands-on problem solving, data structures, algor
 
 ---
 
-## 📝 Index of Questions (Day 01 – Day 65)
+## 📝 Index of Questions (Day 01 – Day 73)
 
 | Day | Question | Module | Problem Statement | Solution |
 | :---: | :---: | :--- | :--- | :---: |
@@ -178,6 +178,14 @@ This repository documents daily hands-on problem solving, data structures, algor
 | **Day 63** | **Q113** | Logic Enhancers | Write a program to take an integer array arr and an integer k as inputs. The task is to find the kth smallest element in the array. Print the kth smallest element as output. | [Code](./Day%2063/DAY63QUES113.c) |
 | **Day 64** | **Q114** | Logic Enhancers | Write a program to take a string s as input. The task is to find the length of the longest substring without repeating characters. Print the length as output. | [Code](./Day%2064/DAY64QUES114.c) |
 | **Day 65** | **Q115** | Logic Enhancers | Write a program to take two strings s and t as inputs (assume all characters are lowercase). The task is to determine if s and t are valid anagrams, meaning they contain the same characters with the same frequencies. Print "Anagram" if they are, otherwise "Not Anagram". | [Code](./Day%2065/DAY65QUES115.c) |
+| **Day 66** | **Q116** | Logic Enhancers | Write a program to take an integer array nums which contains only positive integers and an integer target as inputs. Find two distinct indices i and j such that nums[i] + nums[j] equals the target. Print the two indices separated by a space as output. If no solution exists, print "-1 -1". | [Code](./Day%2066/DAY66QUES116.c) |
+| **Day 67** | **Q117** | Logic Enhancers | Write a program to take two sorted arrays of size m and n as input. Merge both the arrays such that the merged array is also sorted. Print the merged array. | [Code](./Day%2067/DAY67QUES117.c) |
+| **Day 68** | **Q118** | Logic Enhancers | Write a program to take an input array of size n. The array should contain all the integers between 0 to n except for one. Print that missing number. | [Code](./Day%2068/DAY68QUES118.c) |
+| **Day 69** | **Q119** | Logic Enhancers | Write a program to take an integer array as input. Only one element will be repeated. Print the repeated element. Try to find the result in one single iteration. | [Code](./Day%2069/DAY69QUES119.c) |
+| **Day 70** | **Q120** | Strings & Enums | Write a program to take a string input. Change it to sentence case. | [Code](./Day%2070/DAY70QUES120.c) |
+| **Day 71** | **Q121** | File Handling | Write a C program that creates a text file named info.txt in write mode. The program should take the user's name and age as input, and write them to the file using fprintf(). After writing, display a message confirming that the data was successfully saved. | [Code](./Day%2071/DAY71QUES121.c) |
+| **Day 72** | **Q122** | File Handling | Write a C program that opens an existing file (e.g., info.txt) and reads its contents using fgets(). The program should print all the lines to the console until EOF. | [Code](./Day%2072/DAY72QUES122.c) |
+| **Day 73** | **Q123** | File Handling | Read a text file and count the total number of characters, words, and lines. A word is defined as a sequence of non-space characters separated by spaces or newlines. | [Code](./Day%2073/DAY73QUES123.c) |
 
 
 ---
@@ -196,6 +204,7 @@ In addition to the daily challenge problems, this repository includes college la
   - Compound Interest Calculator (compound_interest.c)
   - Unique Element in Array (unique.c)
   - While Loop validations (while.c, until_enters_positive.c)
+  - Student Records using Structure Array (Practice/structure_students.c)
   - CodeAnyTime lab collection (Practice/codeanytime/)
 
 ---
