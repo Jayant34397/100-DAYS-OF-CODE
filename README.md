@@ -1,7 +1,7 @@
 # 100 Days of Code — C Programming 🚀
 
-[![Progress](https://img.shields.io/badge/Progress-Day%2073%20%2F%20100-2ea44f?style=for-the-badge&logo=git)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
-[![Questions Solved](https://img.shields.io/badge/Questions%20Solved-123-blue?style=for-the-badge)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
+[![Progress](https://img.shields.io/badge/Progress-Day%2096%20%2F%20100-2ea44f?style=for-the-badge&logo=git)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
+[![Questions Solved](https://img.shields.io/badge/Questions%20Solved-146-blue?style=for-the-badge)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
 [![Language](https://img.shields.io/badge/Language-C-A8B9CC?style=for-the-badge&logo=c)](https://github.com/Jayant34397/100-DAYS-OF-CODE)
 [![Institution](https://img.shields.io/badge/Institution-UPES-E31837?style=for-the-badge)](https://www.upes.ac.in/)
 
@@ -34,7 +34,9 @@ This repository documents daily hands-on problem solving, data structures, algor
 | **6. 2D Arrays (Matrices)** | Q71 – Q80 | ✅ Completed (10/10) |
 | **7. Strings & String Functions** | Q81 – Q100 | ✅ Completed (20/20) |
 | **8. Logic Enhancers & Problem Solving** | Q101 – Q119 | ✅ Completed (19/19) |
-| **9. File Handling & Additional Topics** | Q120 – Q123+ | 🚀 In Progress (4 Completed) |
+| **9. File Handling & Additional Topics** | Q120 – Q130 | ✅ Completed (11/11) |
+| **10. Enumerations (Enums)** | Q131 – Q140 | ✅ Completed (10/10) |
+| **11. Structures & Nested Structures** | Q141 – Q146+ | 🚀 In Progress (6 Completed) |
 
 ---
 
@@ -42,12 +44,12 @@ This repository documents daily hands-on problem solving, data structures, algor
 
 ```text
 100-DAYS-OF-CODE/
-├── Day 01/             # Daily challenge folders (Day 01 to Day 73)
+├── Day 01/             # Daily challenge folders (Day 01 to Day 96)
 │   ├── Q1 (...).c
 │   └── Q2 (...).c
 ├── ...
-├── Day 73/
-│   └── DAY73QUES123.c
+├── Day 96/
+│   └── DAY96QUES146.c
 ├── Worksheets/         # University lab worksheets & assignments
 │   ├── Worksheet 01/   # Questions Q1 to Q20
 │   └── Worksheet 02/   # Questions Q1 to Q20
@@ -59,7 +61,7 @@ This repository documents daily hands-on problem solving, data structures, algor
 
 ---
 
-## 📝 Index of Questions (Day 01 – Day 73)
+## 📝 Index of Questions (Day 01 – Day 96)
 
 | Day | Question | Module | Problem Statement | Solution |
 | :---: | :---: | :--- | :--- | :---: |
@@ -186,6 +188,29 @@ This repository documents daily hands-on problem solving, data structures, algor
 | **Day 71** | **Q121** | File Handling | Write a C program that creates a text file named info.txt in write mode. The program should take the user's name and age as input, and write them to the file using fprintf(). After writing, display a message confirming that the data was successfully saved. | [Code](./Day%2071/DAY71QUES121.c) |
 | **Day 72** | **Q122** | File Handling | Write a C program that opens an existing file (e.g., info.txt) and reads its contents using fgets(). The program should print all the lines to the console until EOF. | [Code](./Day%2072/DAY72QUES122.c) |
 | **Day 73** | **Q123** | File Handling | Read a text file and count the total number of characters, words, and lines. A word is defined as a sequence of non-space characters separated by spaces or newlines. | [Code](./Day%2073/DAY73QUES123.c) |
+| **Day 74** | **Q124** | File Handling | Take two filenames from the user — a source file and a destination file. Copy all the content from the source file to the destination file using fgetc() and fputc(). | [Code](./Day%2074/DAY74QUES124.c) |
+| **Day 75** | **Q125** | File Handling | Open an existing file in append mode and allow the user to enter a new line of text. Append the text at the end without overwriting existing content. | [Code](./Day%2075/DAY75QUES125.c) |
+| **Day 76** | **Q126** | File Handling | Ask the user for a filename. Check if it exists by trying to open it in read mode. If the file pointer is NULL, print an error message; otherwise, read and display its content. | [Code](./Day%2076/DAY76QUES126.c) |
+| **Day 77** | **Q127** | File Handling | Write a program that reads text from input.txt, converts all lowercase letters to uppercase, and writes the result to output.txt. | [Code](./Day%2077/DAY77QUES127.c) |
+| **Day 78** | **Q128** | File Handling | Read a text file and count how many vowels and consonants are in the file. Ignore digits and special characters. | [Code](./Day%2078/DAY78QUES128.c) |
+| **Day 79** | **Q129** | File Handling | A file numbers.txt contains a list of integers separated by spaces. Read all integers, compute their sum and average, and print both. | [Code](./Day%2079/DAY79QUES129.c) |
+| **Day 80** | **Q130** | File Handling | Store multiple student records (name, roll number, marks) into a file using fprintf(). Then read them using fscanf() and display each record. | [Code](./Day%2080/DAY80QUES130.c) |
+| **Day 81** | **Q131** | Enumerations | Create an enumeration for days (SUNDAY to SATURDAY) and print each day with its integer value. | [Code](./Day%2081/DAY81QUES131.c) |
+| **Day 82** | **Q132** | Enumerations | Define an enum for traffic lights (RED, YELLOW, GREEN) and print 'Stop', 'Wait', or 'Go' based on its value. | [Code](./Day%2082/DAY82QUES132.c) |
+| **Day 83** | **Q133** | Enumerations | Create an enum for months and print how many days each month has. | [Code](./Day%2083/DAY83QUES133.c) |
+| **Day 84** | **Q134** | Enumerations | Define an enum with SUCCESS, FAILURE, and TIMEOUT, and print messages accordingly. | [Code](./Day%2084/DAY84QUES134.c) |
+| **Day 85** | **Q135** | Enumerations | Assign explicit values starting from 10 to enum constants and print them. | [Code](./Day%2085/DAY85QUES135.c) |
+| **Day 86** | **Q136** | Enumerations | Use enum to represent menu choices (ADD, SUBTRACT, MULTIPLY) and perform operations using switch. | [Code](./Day%2086/DAY86QUES136.c) |
+| **Day 87** | **Q137** | Enumerations | Create an enum for user roles (ADMIN, USER, GUEST) and display messages based on role. | [Code](./Day%2087/DAY87QUES137.c) |
+| **Day 88** | **Q138** | Enumerations | Print all enum names and integer values using a loop. | [Code](./Day%2088/DAY88QUES138.c) |
+| **Day 89** | **Q139** | Enumerations | Demonstrate that enums store integer values by printing assigned values. | [Code](./Day%2089/DAY89QUES139.c) |
+| **Day 90** | **Q140** | Enums & Structures | Define a struct with enum Gender and print person's gender. | [Code](./Day%2090/DAY90QUES140.c) |
+| **Day 91** | **Q141** | Structures | Define a structure Student with name, roll_no, and marks, then read and print one student's data. | [Code](./Day%2091/DAY91QUES141.c) |
+| **Day 92** | **Q142** | Structures | Store details of 5 students in an array of structures and print all records. | [Code](./Day%2092/DAY92QUES142.c) |
+| **Day 93** | **Q143** | Structures | Find and print the student with the highest marks from an array of student structures. | [Code](./Day%2093/DAY93QUES143.c) |
+| **Day 94** | **Q144** | Structures | Write a function that accepts a structure as parameter and prints its members. | [Code](./Day%2094/DAY94QUES144.c) |
+| **Day 95** | **Q145** | Structures | Write a function that returns a structure containing the top student's details. | [Code](./Day%2095/DAY95QUES145.c) |
+| **Day 96** | **Q146** | Structures | Create an Employee structure with a nested Date structure for date of joining and print employee details. | [Code](./Day%2096/DAY96QUES146.c) |
 
 
 ---
@@ -205,6 +230,7 @@ In addition to the daily challenge problems, this repository includes college la
   - Unique Element in Array (unique.c)
   - While Loop validations (while.c, until_enters_positive.c)
   - Student Records using Structure Array (Practice/structure_students.c)
+  - Array loop traversal & operations (Practice/codeanytime/array_traverse.c, array_input.c, array_sum.c)
   - CodeAnyTime lab collection (Practice/codeanytime/)
 
 ---
